@@ -1,0 +1,431 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+/*------------------------
+        common styles
+    ------------------------ */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Work Sans';
+}
+
+.btn-common {
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-------------------------
+        header styles
+    ------------------------- */
+
+/* navigation bar styles */
+header {
+    padding: 0px 228px 45px 228px;
+    margin-bottom: 85px;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 30px;
+    color: #131313;
+}
+
+.nav-menu ul {
+    display: flex;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    margin-left: 28px;
+}
+
+.nav-menu ul li a {
+    color: #424242;
+}
+
+/* banner styles */
+
+.banner-info {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+}
+
+.banner-pic img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/*------------------------
+    main section styles
+-------------------------- */
+
+/* featur section styles */
+
+.feature-list {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding: 0px 228px;
+    margin-bottom: 120px;
+
+}
+
+.feature-pic {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+
+}
+
+.feature-pic img {
+    width: 100%;
+}
+
+.feature-info {
+    width: 40%;
+
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 28px;
+    color: #727272;
+    text-align: left;
+    margin-bottom: 24px;
+
+}
+
+.black {
+    color: #131313;
+}
+
+.primary {
+    color: #FF900E;
+}
+
+.feature-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 32px;
+    text-align: left;
+}
+
+/* feature works section styles */
+
+.feature-works {
+    padding: 0px 228px;
+    display: flex;
+    gap: 54px;
+}
+
+.works {
+    width: 50%;
+}
+
+.works-pic {
+    width: 50%;
+
+}
+
+.btn{
+    position: relative;
+    top: -80px;
+    left: 90px;
+    height: 107px;
+    width: 185px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+}
+
+.works-pic img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.works-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 34px;
+}
+
+.work {
+    margin-top: 30px;
+    padding: 10px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.work-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+/* facts section styles */
+
+.facts {
+    padding: 0px 228px;
+}
+
+.facts-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 70px;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.facts-des {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.fact {
+    padding: 45px 10px 30px 10px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.fact img {
+    height: 45px;
+    width: 45px;
+
+}
+
+.fact-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+    margin: 0px;
+    padding: 0px 25px 0px 25px;
+}
+
+.fact-des {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+    margin: 0px;
+    padding: 0px 25px 15px 25px;
+}
+ 
+/* hover styles */
+.fact:hover{
+    background-color: #FF900E;
+
+}
+
+/* sponsors secton styles */
+
+.sponsors {
+    padding: 0px 210px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.spn-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.spn-des {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.spn-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.spn-logo img {
+    height: 30px;
+    width: 100px;
+
+
+}
+
+/* contact section styles */
+
+.contact {
+    margin-top: 150px;
+    padding: 0px 228px;
+
+}
+form{
+    background-color: #FFF4E7;
+    padding: 40px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+form label{
+    font-size: 30px;
+    color: #383636;
+}
+form input{
+    width: 80%;
+    padding: 18px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+}
+form textarea{
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+}
+
+/*----------------------
+  footer section styles
+ ----------------------- */
+footer {
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 215px 216px 215px;
+}
+
+.foot-info {
+    padding: 22px 0px;
+    text-align: center;
+}
+.heid{
+    display: none;
+}
+
+/*------------------
+   media quaris 
+--------------------*/
+
+/* mobile devices */
+
+@media only screen and (max-width: 688px) {
+    header{
+        width: 100%;
+        padding: 0px;
+    }
+    .nav-bar{
+        flex-direction: column;
+        width: 100%;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+
+    }
+    .feature-list{
+        width: 100%;
+        flex-direction: column;
+        padding: 0px;
+    }
+    .feature-pic{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .feature-works{
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 100px;
+        padding: 0px;
+    }
+    .btn{
+        display: none;
+    }
+    .facts{
+       width: 100%;
+       padding: 0px;
+    }
+    .fact:hover{
+        background-color: #FF900E;
+    
+    }
+    .facts-item{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        padding: 0px;
+       
+    }
+    .sponsors{
+        width: 100%;
+        padding: 0px;
+    }
+    .spn-logo{
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+        padding: 0px;
+    }
+    footer{
+        margin: 0px;
+        width: 100%;
+    }
+    
+}
+
